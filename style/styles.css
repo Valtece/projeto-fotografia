@@ -41,6 +41,7 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
+    background-color: #c4c4c444;
 }
 
 
@@ -150,6 +151,12 @@ arrow,
     }
 }
 
+@media (max-width: 900px) {
+    .seta {
+        margin-bottom: 60px;
+    }
+}
+
 .container-titulo {
     padding: 20px;
 }
@@ -161,21 +168,23 @@ arrow,
 #titulo h1 {
     text-align: center;
     font-family: cursive;
-    font-size: 45px;
+    font-size: 47px;
     color: #dbdbdb;
     font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
 }
 
 #titulo h2 {
     text-align: center;
     font-family: cursive;
-    font-size: 34px;
+    font-size: 36px;
     color: #dbdbdb;
     font-weight: normal;
+    font-family: 'Dancing Script', cursive;
 }
 
 .container-img {
-    background-color: #ffffffc9;
+    background-color: #dbdbdbec;
     padding: 4px;
     display: flex;
     flex-direction: row;
@@ -221,4 +230,92 @@ arrow,
     header nav {
         display: none;
     }
+}
+
+#container-sobre {
+    padding: 100px 0px;
+}
+
+#sobre {
+    padding: 10px;
+    padding: 0px 110px;
+}
+
+#sobre h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 46px;
+    color: #eeeeee;
+}
+
+#sobre p {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    font-weight: normal;
+    color: #eeeeee;
+}
+
+.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.module.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(41, 41, 41, 0) 80%, rgba(41, 41, 41, 0) 60%, #292929a2 100%);
+}
+
+.module.parallax-1 {
+    background-image: url(https://images.pexels.com/photos/12136072/pexels-photo-12136072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+@media (max-width: 900px) {
+    #container-sobre {
+        padding: 60px 0px;
+    }
+    #sobre {
+        padding: 10px;
+        padding: 0px 50px;
+    }
+    #sobre h2 {
+        font-size: 42px;
+    }
+    
+    #sobre p {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+
+.container-portfolio {
+    padding: 10px;
+}
+
+#titulo-portfolio {
+    padding: 40px 0px;
+}
+
+#titulo-portfolio h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 46px;
+    color: #eeeeee;
 }
