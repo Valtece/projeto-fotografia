@@ -154,22 +154,24 @@ arrow,
     padding: 20px;
 }
 
-.titulo {
+#titulo {
     margin-top: 60px;
 }
 
-.titulo h1 {
+#titulo h1 {
     text-align: center;
-    font-family: 'Manrope', sans-serif;
+    font-family: cursive;
     font-size: 44px;
     color: #dbdbdb;
+    font-weight: bolder;
 }
 
-.titulo h2 {
+#titulo h2 {
     text-align: center;
-    font-family: 'Manrope', sans-serif;
+    font-family: cursive;
     font-size: 34px;
     color: #dbdbdb;
+    font-weight: normal;
 }
 
 .container-img {
@@ -188,11 +190,11 @@ arrow,
 }
 
 @media (max-width: 750px) {
-    .titulo h1 {
+    #titulo h1 {
         font-size: 40px;
         text-align: center;
     }
-    .titulo h2 {
+    #titulo h2 {
         font-size: 30px;
         text-align: center;
     }
