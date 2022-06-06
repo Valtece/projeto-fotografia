@@ -190,6 +190,10 @@ arrow,
 }
 
 @media (max-width: 750px) {
+    #titulo {
+        margin-top: 20px;
+    }
+
     #titulo h1 {
         font-size: 40px;
         text-align: center;
