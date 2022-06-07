@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style/styles.css">
     <title>Alpha Photos</title>
     <style>
@@ -17,7 +18,10 @@
     <div id="full-header">
 		<header class="header">
 				<a href="./index.html" class="logo">
-					<img src="images/logo1.png" alt="">
+					<picture class="divImgTop">
+                        <source media="(max-width: 750px)" srcset="images/logo1-mobile.png" type="image/jpg">
+                        <img src="images/logo1.png" alt="" class="imgTop">
+                    </picture>
 				</a>
 
 				<nav class="nav1">
@@ -52,7 +56,7 @@
             <div class="img">
                 
                 <div class="seta">
-                    <a href="#titulo">
+                    <a href="#container-titulo">
                         <div class="arrow"></div>
                     </a>
                 </div>
@@ -61,7 +65,7 @@
         </div>
     </div>
 
-    <div class="container-titulo">
+    <div id="container-titulo">
         <div id="titulo">
             <h1>Alpha Photos</h1>
             <h2>Seus sonhos em nossas lentes</h2>
@@ -102,7 +106,7 @@
     <section class="module parallax parallax-1">
     </section>
 
-    <div class="container-portfolio">
+    <div id="container-portfolio">
         <div id="titulo-portfolio">
             <h2>Portfólio</h2>
         </div>

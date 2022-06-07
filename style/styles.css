@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-color: #161616;
+	background-color: #e6e6e6;
 }
 
 * {
@@ -28,6 +28,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-attachment: fixed;
 }
 
 #full-header {
@@ -153,12 +156,13 @@ arrow,
 
 @media (max-width: 900px) {
     .seta {
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
 }
 
-.container-titulo {
+#container-titulo {
     padding: 20px;
+    background-color: #e6e6e6;
 }
 
 #titulo {
@@ -169,7 +173,7 @@ arrow,
     text-align: center;
     font-family: cursive;
     font-size: 47px;
-    color: #dbdbdb;
+    color: #181818;
     font-weight: bolder;
     font-family: 'Dancing Script', cursive;
 }
@@ -178,13 +182,13 @@ arrow,
     text-align: center;
     font-family: cursive;
     font-size: 36px;
-    color: #dbdbdb;
+    color: #181818;
     font-weight: normal;
     font-family: 'Dancing Script', cursive;
 }
 
 .container-img {
-    background-color: #dbdbdbec;
+    background-color: #e6e6e6;
     padding: 4px;
     display: flex;
     flex-direction: row;
@@ -206,12 +210,10 @@ arrow,
     #titulo h1 {
         font-size: 40px;
         text-align: center;
-        color: #dbdbdb;
     }
     #titulo h2 {
         font-size: 30px;
         text-align: center;
-        color: #dbdbdb;
     }
     .container-img {
         padding: 4px;
@@ -234,6 +236,8 @@ arrow,
 
 #container-sobre {
     padding: 100px 0px;
+    background-color: #e6e6e6;
+    
 }
 
 #sobre {
@@ -245,7 +249,7 @@ arrow,
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 46px;
-    color: #eeeeee;
+    color: #181818;
 }
 
 #sobre p {
@@ -254,7 +258,7 @@ arrow,
     font-family: 'Dancing Script', cursive;
     font-size: 34px;
     font-weight: normal;
-    color: #eeeeee;
+    color: #181818;
 }
 
 .module.parallax {
@@ -305,8 +309,9 @@ arrow,
     }
 }
 
-.container-portfolio {
+#container-portfolio {
     padding: 10px;
+    background-color: #e6e6e6;
 }
 
 #titulo-portfolio {
@@ -317,5 +322,9 @@ arrow,
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 46px;
-    color: #eeeeee;
+    color: #181818;
+}
+
+#titulo, .container-img, #sobre, #titulo-portfolio {
+    visibility: hidden;
 }
