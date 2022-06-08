@@ -149,18 +149,17 @@ arrow,
 @media (max-width: 1000px) {
     .start-img {
         background-image: url(https://images.pexels.com/photos/11532766/pexels-photo-11532766.jpeg?cs=srgb&dl=pexels-vadim-koval-11532766.jpg&fm=jpg);
-        height: 100%;
         width: 100%;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     .seta {
-        margin-bottom: 110px;
+        margin-bottom: 100px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .seta {
         margin-bottom: 80px;
     }
