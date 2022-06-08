@@ -156,9 +156,16 @@ arrow,
 
 @media (max-width: 900px) {
     .seta {
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 500px) {
+    .seta {
         margin-bottom: 80px;
     }
 }
+
 
 #container-titulo {
     padding: 20px;
