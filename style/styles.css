@@ -468,8 +468,6 @@ arrow,
 }
 
 .video-portfolio {
-    padding: 2px;
-    width: 100%;
     background-color: rgb(230, 230, 230);
 }
 
@@ -491,3 +489,4 @@ arrow,
     font-size: 46px;
     color: #181818;
 }
+
