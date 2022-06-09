@@ -427,3 +427,42 @@ arrow,
     font-size: 50px;
     color: #e6e6e6;
 }
+
+@media (max-width: 750px) {
+    .section-portfolio {
+        padding: 0px;
+    }
+    
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .desc-1 {
+        width: 100%;
+    }
+    .img-1 {
+        width: 100%;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .desc-2 {
+        width: 100%;
+    }
+    .img-2 {
+        width: 100%;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .desc-3 {
+        width: 100%;
+    }
+    .img-3 {
+        width: 100%;
+    }
+}
