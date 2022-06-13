@@ -119,6 +119,10 @@ header nav ul li:hover{
 	display: flex;
 	align-items: center;
 }
+
+.menu a li:hover {
+    background-color: #2e2e2e;
+}
   
   .menu > li {
 	margin: 0 1rem;
@@ -176,7 +180,7 @@ header nav ul li:hover{
   }
   
   @media (max-width: 750px) {
-    header nav {
+    header nav ul {
         display: none;
     }
     
