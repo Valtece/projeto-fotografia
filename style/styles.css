@@ -110,7 +110,7 @@ header nav ul li:hover{
 .menu a li {
 	margin: 0 1rem;
 	overflow: hidden;
-	background-color: #000000;
+	background-color: #000000ab;
 	color: rgb(255, 255, 255);
 	margin: 0 1rem;
 	overflow: hidden;
@@ -147,7 +147,7 @@ header nav ul li:hover{
   .menu-button::before,
   .menu-button::after {
 	display: block;
-	background-color: #000000;
+	background-color: #0000009f;
 	position: absolute;
 	height: 4px;
 	width: 30px;
@@ -171,7 +171,7 @@ header nav ul li:hover{
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button {
-	background: rgb(0, 0, 0);
+	background: #0000009f;
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -607,7 +607,7 @@ arrow,
     width: 100%;
 }
 
-.container-servicos {
+#container-servicos {
     padding: 10px;
 }
 
